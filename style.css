@@ -6,11 +6,11 @@
 
 }
 .heading{
-    font-size: 100px;
+    font-size: 5rem;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#B8C6DC;
-    margin: 10px;
+    margin: 1rem;
 
 }
 
@@ -50,4 +50,23 @@ font-size: 1rem;
     text-align: left;
     color: #B8C6DC;
     font-size: 1.5rem;
+}
+@media (max-width:500px){
+    .heading{
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+    .container{
+        min-width:100vw ;
+        margin: 0.5rem auto ;
+    }
+    .counter{
+        margin-top: 3rem;
+    }
+   
+    .indec{
+        margin: 1.5rem;
+        line-height: 4.5rem;
+    }
+    
 }
